@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">JMU VSA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>JMU VSA</h1>
+            <p>Spreading Vietnamese Culture since 2003.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Join the groupme today!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Meet the new e-board for 2023-2024</h1>
+            <p>Introducing the people behind it all.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">List here</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Culture Show 2023</h1>
+            <p>Directed by Jenny Nguyen</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse photos</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <!-- Member 8 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 8" width="140" height="140">
+        <h2>Eric Lin</h2>
+        <p>Position: Sports Chair</p>
+        <p>Grade: Sophomore</p>
+      </div>
+    
+      <!-- Member 9 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 9" width="140" height="140">
+        <h2>Ryan Gallagher</h2>
+        <p>Position: Sports Chair</p>
+        <p>Grade: Sophomore</p>
+      </div>
+      <!-- Member 10 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 10" width="140" height="140">
+        <h2>Josh Vu</h2>
+        <p>Position: Treasurer</p>
+        <p>Grade: Sophomore</p>
+      </div>
+    
+      <!-- Member 11 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 11" width="140" height="140">
+        <h2>Brandon Nguyen</h2>
+        <p>Position: EVP</p>
+        <p>Grade: Junior</p>
+      </div>
+      <!-- Member 12 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 12" width="140" height="140">
+        <h2>Emily Nguyen</h2>
+        <p>Position: Culture Chair</p>
+        <p>Grade: Junior</p>
+      </div>
+    
+      <!-- Member 13 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 13" width="140" height="140">
+        <h2>Member 13 Name</h2>
+        <p>Position: Member 13 Position</p>
+        <p>Grade: Member 13 Grade</p>
+      </div>
+      <!-- Member 14 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 14" width="140" height="140">
+        <h2>Member 14 Name</h2>
+        <p>Position: Member 14 Position</p>
+        <p>Grade: Member 14 Grade</p>
+      </div>
+  </div><!-- /.row -->
+    <div class="row">
+      <!-- Member 1 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 1" width="140" height="140">
+        <h2>Member 1 Name</h2>
+        <p>Position: Member 1 Position</p>
+        <p>Grade: Member 1 Grade</p>
+      </div>
+    
+      <!-- Member 2 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 2" width="140" height="140">
+        <h2>Member 2 Name</h2>
+        <p>Position: Member 2 Position</p>
+        <p>Grade: Member 2 Grade</p>
+      </div>
+      <!-- Member 3 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 3" width="140" height="140">
+        <h2>Member 3 Name</h2>
+        <p>Position: Member 3 Position</p>
+        <p>Grade: Member 3 Grade</p>
+      </div>
+    
+      <!-- Member 4 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 4" width="140" height="140">
+        <h2>Member 4 Name</h2>
+        <p>Position: Member 4 Position</p>
+        <p>Grade: Member 4 Grade</p>
+      </div>
+      <!-- Member 5 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 5" width="140" height="140">
+        <h2>Member 5 Name</h2>
+        <p>Position: Member 5 Position</p>
+        <p>Grade: Member 5 Grade</p>
+      </div>
+    
+      <!-- Member 6 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 6" width="140" height="140">
+        <h2>Member 6 Name</h2>
+        <p>Position: Member 6 Position</p>
+        <p>Grade: Member 6 Grade</p>
+      </div>
+      <!-- Member 7 -->
+      <div class="col-lg-4">
+        <img src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg" alt="Member 7" width="140" height="140">
+        <h2>Member 7 Name</h2>
+        <p>Position: Member 7 Position</p>
+        <p>Grade: Member 7 Grade</p>
+      </div>
+  </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">About VSA <span class="text-muted"></span></h2>
+        <p class="lead">Founded in 2003. JMUVSA has been spreading Vietnamese culture in new and exciting ways to improve the community.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2023 Summer Marcus Tran. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
